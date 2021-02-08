@@ -107,6 +107,8 @@ class ToDoList:
             elif self.choice == '0':
                 print('Bye!')
                 break
+            else:
+                self.my_list()
 
 
 a = ToDoList()
